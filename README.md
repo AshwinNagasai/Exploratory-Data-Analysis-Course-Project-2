@@ -68,15 +68,28 @@ You must address the following questions and tasks in your exploratory analysis.
 
 1. Have total emissions from PM2.5 decreased in the United States from 1999 to 2008? Using the base plotting system, make a plot showing the total PM2.5 emission from all sources for each of the years 1999, 2002, 2005, and 2008.
 
+Answer: From the above plot, it can be inferred that the total emissions of PM2.5 in the United States decreased from 1999 to 2008.
+
 2. Have total emissions from PM2.5 decreased in the Baltimore City, Maryland (\color{red}{\verb|fips == "24510"|}fips == "24510") from 1999 to 2008? Use the base plotting system to make a plot answering this question.
+
+Answer: From the above plot, it can be inferred that the total emissions of PM2.5 in the Baltimore City, Maryland decreased from 1999 to 2008.
 
 3. Of the four types of sources indicated by the \color{red}{\verb|type|}type (point, nonpoint, onroad, nonroad) variable, which of these four sources have seen decreases in emissions from 1999–2008 for Baltimore City? Which have seen increases in emissions from 1999–2008? Use the ggplot2 plotting system to make a plot answer this question.
 
+Answer: From the above plot, it can be inferred that From 1999 to 2008, The non-road, nonpoint, and on-road source types have all seen decreased emissions overall whereas the point source type saw a slight increase overall in Baltimore City, Maryland.
+
 4. Across the United States, how have emissions from coal combustion-related sources changed from 1999–2008?
+
+Answer: From the above plot, it can be seen that The total coal combustion-related emissions have decreased from 1999 to 2008 with an overall decrease of 40% during this period.
 
 5. How have emissions from motor vehicle sources changed from 1999–2008 in Baltimore City?
 
+Answer: From the above plot it can be seen that, Emissions from motor vehicle sources have dropped from 1999 to 2008 in Baltimore City, Maryland.
+
+
 6. Compare emissions from motor vehicle sources in Baltimore City with emissions from motor vehicle sources in Los Angeles County, California (\color{red}{\verb|fips == "06037"|}fips == "06037"). Which city has seen greater changes over time in motor vehicle emissions?
+
+Answer: From the above plot it can be seen that, while Baltimore City, Maryland witnessed a decrease in motor vehicle emissions, Los Angeles County shows an staggering increase in Motor Vehicle Emissions. So, it can be conculded that Los Angeles County shows the greatest changes over time (from 1999 to 2008) in Motor Vehicle Emissions.
 
 Making and Submitting Plots:
  
